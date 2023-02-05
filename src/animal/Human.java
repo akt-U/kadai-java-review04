@@ -15,7 +15,7 @@ public class Human extends Animal implements Thinkable {
 
 }
     //superから引っ張り＋コンストラクタ
-    public Human(String name, int age) {
+    public Human(String name, int age, String hobby) {
         super(name, age);
         this.hobby = hobby;
     }
