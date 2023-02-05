@@ -15,7 +15,7 @@ public class Animal {
    }
 
    public void say(){
-       System.out.println(this.name + "です。年齢は" + this.age + "歳です。");
+       System.out.println(this.name + "です。 " + this.age + "歳です。");
 
    }
 
